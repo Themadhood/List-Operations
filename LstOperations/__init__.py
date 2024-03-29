@@ -10,10 +10,12 @@ try:
     from . import ListLenManipulate
     from . import CantBeInSameLst
     from . import LstSorting
+    from . import Stacks
 except:
     import ListLenManipulate
     import CantBeInSameLst
     import LstSorting
+    import Stacks
 
 Error = ListLenManipulate.Error
 
